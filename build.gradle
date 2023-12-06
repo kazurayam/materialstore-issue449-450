@@ -1,0 +1,3 @@
+plugins {
+  id 'com.kazurayam.inspectus4katalon' version "0.5.3"
+}

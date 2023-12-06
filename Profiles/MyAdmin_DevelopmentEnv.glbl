@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>MyAdmin_DevelopmentEnv</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://devadmin.kazurayam.com/'</initValue>
+      <name>topPageURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Include/data/MyAdmin/targetList.csv'</initValue>
+      <name>CSV</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
