@@ -1,4 +1,0 @@
-url,handle,description
-/index.html,By.xpath: //img[@alt='umineko'],the top page
-/repositories.html,By.xpath: //footer,my repositories
-/proverbs.html,By.xpath: //footer,my favorite proverb

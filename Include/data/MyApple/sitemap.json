@@ -1,31 +1,10 @@
 {
   "targetList": [
     {
-      "url": "${URL_PREFIX}/page1.html",
-      "handle": "By.cssSelector: img#apple",
-      "attributes": {
-        "description": "the source"
-      }
-    },
-    {
       "url": "${URL_PREFIX}/page2.html",
       "handle": "By.cssSelector: img#apple",
       "attributes": {
         "description": "resized"
-      }
-    },
-    {
-      "url": "${URL_PREFIX}/page3.html",
-      "handle": "By.cssSelector: img#apple",
-      "attributes": {
-        "description": "lorem ipsum"
-      }
-    },
-    {
-      "url": "${URL_PREFIX}/page4.html",
-      "handle": "By.cssSelector: img#apple",
-      "attributes": {
-        "description": "rotated"
       }
     }
   ]
