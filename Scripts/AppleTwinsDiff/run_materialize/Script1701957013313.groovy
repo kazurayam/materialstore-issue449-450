@@ -33,7 +33,7 @@ p.put(Parameters.KEY_sortKeys, sortKeys)
 p.put(Parameters.KEY_environment, "MyApple_DevelopmentEnv")
 
 // take screenshot PNG and save HTML source
-WebUI.callTestCase(findTestCase("Test Cases/MyApple/materialize"), p);
+WebUI.callTestCase(findTestCase("Test Cases/AppleTwinsDiff/materialize"), p);
 
 
 

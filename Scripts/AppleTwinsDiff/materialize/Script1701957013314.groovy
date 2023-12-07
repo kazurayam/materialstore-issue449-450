@@ -29,7 +29,7 @@ List<Target> targetList = getTargetList(executionProfile)
 
 WebUI.comment("targetList.size()=" + targetList.size())
 
-WebUI.callTestCase(findTestCase("Test Cases/MyApple/processTargetList"),
+WebUI.callTestCase(findTestCase("Test Cases/AppleTwinsDiff/processTargetList"),
 						[
 							"store": store,
 							"jobName": jobName,

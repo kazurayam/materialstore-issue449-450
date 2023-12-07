@@ -16,7 +16,7 @@ import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.util.KeywordUtil
 
 /**
- * Test Cases/MyAdmin/main
+ * Test Cases/AppleTwinsDiff/main
  *
  */
 Path projectDir = Paths.get(RunConfiguration.getProjectDir())
@@ -24,7 +24,7 @@ Path local = projectDir.resolve("store")
 Path remote = projectDir.resolve("store-backup")
 Store store = Stores.newInstance(local)
 Store backup = Stores.newInstance(remote)
-JobName jobName = new JobName("MyApple")
+JobName jobName = new JobName("AppleTwinsDiff")
 JobTimestamp jobTimestamp = JobTimestamp.now()
 SortKeys sortKeys = new SortKeys("step")
 
@@ -42,9 +42,9 @@ Parameters p =
 		.build();
 
 Inspectus inspectus =
-	new KatalonTwinsDiff("Test Cases/MyApple/materialize",
-						new Environment("MyApple_ProductionEnv"),
-						new Environment("MyApple_DevelopmentEnv"))
+	new KatalonTwinsDiff("Test Cases/AppleTwinsDiff/materialize",
+						new Environment("AppleTwinsDiff_ProductionEnv"),
+						new Environment("AppleTwinsDiff_DevelopmentEnv"))
 Intermediates result = inspectus.execute(p)
 
 if (result.getWarnings() > 0) {

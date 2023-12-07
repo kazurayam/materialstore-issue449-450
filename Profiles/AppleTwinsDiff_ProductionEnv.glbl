@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>MyApple_DevelopmentEnv</name>
+   <name>AppleTwinsDiff_ProductionEnv</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://kazurayam.github.io/myApple-alt'</initValue>
+      <initValue>'https://kazurayam.github.io/myApple'</initValue>
       <name>URL_PREFIX</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
